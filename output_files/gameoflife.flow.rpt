@@ -1,0 +1,155 @@
+Flow report for gameoflife
+Tue Apr 11 12:23:25 2023
+Quartus Prime Version 22.1std.1 Build 917 02/14/2023 SC Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2023  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++----------------------------------------------------------------------------------+
+; Flow Summary                                                                     ;
++---------------------------------+------------------------------------------------+
+; Flow Status                     ; Successful - Tue Apr 11 12:23:25 2023          ;
+; Quartus Prime Version           ; 22.1std.1 Build 917 02/14/2023 SC Lite Edition ;
+; Revision Name                   ; gameoflife                                     ;
+; Top-level Entity Name           ; control                                        ;
+; Family                          ; Cyclone V                                      ;
+; Device                          ; 5CSEMA5F31C6                                   ;
+; Timing Models                   ; Final                                          ;
+; Logic utilization (in ALMs)     ; 22,877 / 32,070 ( 71 % )                       ;
+; Total registers                 ; 4048                                           ;
+; Total pins                      ; 84 / 457 ( 18 % )                              ;
+; Total virtual pins              ; 0                                              ;
+; Total block memory bits         ; 0 / 4,065,280 ( 0 % )                          ;
+; Total DSP Blocks                ; 0 / 87 ( 0 % )                                 ;
+; Total HSSI RX PCSs              ; 0                                              ;
+; Total HSSI PMA RX Deserializers ; 0                                              ;
+; Total HSSI TX PCSs              ; 0                                              ;
+; Total HSSI PMA TX Serializers   ; 0                                              ;
+; Total PLLs                      ; 0 / 6 ( 0 % )                                  ;
+; Total DLLs                      ; 0 / 4 ( 0 % )                                  ;
++---------------------------------+------------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 04/11/2023 12:05:25 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; gameoflife          ;
++-------------------+---------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                      ;
++--------------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
+; Assignment Name                            ; Value                                  ; Default Value ; Entity Name ; Section Id                        ;
++--------------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
+; ADVANCED_PHYSICAL_OPTIMIZATION             ; Off                                    ; On            ; --          ; --                                ;
+; ALLOW_REGISTER_MERGING                     ; Off                                    ; On            ; --          ; --                                ;
+; ALLOW_REGISTER_RETIMING                    ; Off                                    ; On            ; --          ; --                                ;
+; AUTO_DELAY_CHAINS                          ; Off                                    ; On            ; --          ; --                                ;
+; AUTO_GLOBAL_CLOCK                          ; Off                                    ; On            ; --          ; --                                ;
+; AUTO_GLOBAL_REGISTER_CONTROLS              ; Off                                    ; On            ; --          ; --                                ;
+; COMPILER_SIGNATURE_ID                      ; 154535781949491.168119312411920        ; --            ; --          ; --                                ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST            ; Off                                    ; --            ; --          ; eda_board_design_timing           ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST            ; Off                                    ; --            ; --          ; eda_board_design_boundary_scan    ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST            ; Off                                    ; --            ; --          ; eda_board_design_signal_integrity ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST            ; Off                                    ; --            ; --          ; eda_board_design_symbol           ;
+; EDA_OUTPUT_DATA_FORMAT                     ; Verilog Hdl                            ; --            ; --          ; eda_simulation                    ;
+; EDA_SIMULATION_TOOL                        ; Questa Intel FPGA (Verilog)            ; <None>        ; --          ; --                                ;
+; EDA_TIME_SCALE                             ; 1 ps                                   ; --            ; --          ; eda_simulation                    ;
+; FINAL_PLACEMENT_OPTIMIZATION               ; Never                                  ; Automatically ; --          ; --                                ;
+; FITTER_AGGRESSIVE_ROUTABILITY_OPTIMIZATION ; Never                                  ; Automatically ; --          ; --                                ;
+; MAX_CORE_JUNCTION_TEMP                     ; 85                                     ; --            ; --          ; --                                ;
+; MIN_CORE_JUNCTION_TEMP                     ; 0                                      ; --            ; --          ; --                                ;
+; OPTIMIZE_FOR_METASTABILITY                 ; Off                                    ; On            ; --          ; --                                ;
+; OPTIMIZE_HOLD_TIMING                       ; Off                                    ; All Paths     ; --          ; --                                ;
+; PARTITION_COLOR                            ; -- (Not supported for targeted family) ; --            ; control     ; Top                               ;
+; PARTITION_COLOR                            ; -- (Not supported for targeted family) ; --            ; draw        ; Top                               ;
+; PARTITION_FITTER_PRESERVATION_LEVEL        ; -- (Not supported for targeted family) ; --            ; control     ; Top                               ;
+; PARTITION_FITTER_PRESERVATION_LEVEL        ; -- (Not supported for targeted family) ; --            ; draw        ; Top                               ;
+; PARTITION_NETLIST_TYPE                     ; -- (Not supported for targeted family) ; --            ; control     ; Top                               ;
+; PARTITION_NETLIST_TYPE                     ; -- (Not supported for targeted family) ; --            ; draw        ; Top                               ;
+; POWER_BOARD_THERMAL_MODEL                  ; None (CONSERVATIVE)                    ; --            ; --          ; --                                ;
+; POWER_PRESET_COOLING_SOLUTION              ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --          ; --                                ;
+; PROJECT_OUTPUT_DIRECTORY                   ; output_files                           ; --            ; --          ; --                                ;
+; REMOVE_DUPLICATE_REGISTERS                 ; Off                                    ; On            ; --          ; --                                ;
+; ROUTER_TIMING_OPTIMIZATION_LEVEL           ; MINIMUM                                ; Normal        ; --          ; --                                ;
+; SYNCHRONIZER_IDENTIFICATION                ; Off                                    ; Auto          ; --          ; --                                ;
+; TOP_LEVEL_ENTITY                           ; control                                ; gameoflife    ; --          ; --                                ;
++--------------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:03:04     ; 1.0                     ; 5207 MB             ; 00:01:20                           ;
+; Fitter               ; 00:09:55     ; 1.1                     ; 7252 MB             ; 00:04:11                           ;
+; Assembler            ; 00:00:22     ; 1.0                     ; 5090 MB             ; 00:00:07                           ;
+; Timing Analyzer      ; 00:04:13     ; 2.1                     ; 5609 MB             ; 00:05:36                           ;
+; EDA Netlist Writer   ; 00:00:15     ; 1.0                     ; 4945 MB             ; 00:00:05                           ;
+; Total                ; 00:17:49     ; --                      ; --                  ; 00:11:19                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; DESKTOP-9MGJ1K2  ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; DESKTOP-9MGJ1K2  ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; DESKTOP-9MGJ1K2  ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; DESKTOP-9MGJ1K2  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-9MGJ1K2  ; Windows 10 ; 10.0       ; x86_64         ;
++----------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off gameoflife -c gameoflife
+quartus_fit --read_settings_files=off --write_settings_files=off gameoflife -c gameoflife
+quartus_asm --read_settings_files=off --write_settings_files=off gameoflife -c gameoflife
+quartus_sta gameoflife -c gameoflife
+quartus_eda --read_settings_files=off --write_settings_files=off gameoflife -c gameoflife
+
+
+

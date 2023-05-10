@@ -1,0 +1,149 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'displaygrid:displaygrid_inst|clk25'
+Slack : -22.421
+TNS   : -449.342
+
+Type  : Slow 1100mV 85C Model Setup 'clock:clock_inst|clk_div'
+Slack : -10.485
+TNS   : -32844.511
+
+Type  : Slow 1100mV 85C Model Setup 'clk'
+Slack : -4.668
+TNS   : -443.174
+
+Type  : Slow 1100mV 85C Model Hold 'clk'
+Slack : -4.405
+TNS   : -8.444
+
+Type  : Slow 1100mV 85C Model Hold 'clock:clock_inst|clk_div'
+Slack : -0.436
+TNS   : -6.375
+
+Type  : Slow 1100mV 85C Model Hold 'displaygrid:displaygrid_inst|clk25'
+Slack : 0.252
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.763
+TNS   : -148.938
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clock:clock_inst|clk_div'
+Slack : -0.652
+TNS   : -2921.978
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'displaygrid:displaygrid_inst|clk25'
+Slack : -0.394
+TNS   : -29.267
+
+Type  : Slow 1100mV 0C Model Setup 'displaygrid:displaygrid_inst|clk25'
+Slack : -22.896
+TNS   : -455.013
+
+Type  : Slow 1100mV 0C Model Setup 'clock:clock_inst|clk_div'
+Slack : -10.224
+TNS   : -32245.071
+
+Type  : Slow 1100mV 0C Model Setup 'clk'
+Slack : -4.519
+TNS   : -425.309
+
+Type  : Slow 1100mV 0C Model Hold 'clk'
+Slack : -4.174
+TNS   : -7.971
+
+Type  : Slow 1100mV 0C Model Hold 'clock:clock_inst|clk_div'
+Slack : -0.297
+TNS   : -3.341
+
+Type  : Slow 1100mV 0C Model Hold 'displaygrid:displaygrid_inst|clk25'
+Slack : 0.259
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.755
+TNS   : -148.771
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clock:clock_inst|clk_div'
+Slack : -0.674
+TNS   : -2964.095
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'displaygrid:displaygrid_inst|clk25'
+Slack : -0.394
+TNS   : -29.099
+
+Type  : Fast 1100mV 85C Model Setup 'displaygrid:displaygrid_inst|clk25'
+Slack : -11.764
+TNS   : -232.160
+
+Type  : Fast 1100mV 85C Model Setup 'clock:clock_inst|clk_div'
+Slack : -6.239
+TNS   : -18863.327
+
+Type  : Fast 1100mV 85C Model Setup 'clk'
+Slack : -2.684
+TNS   : -228.243
+
+Type  : Fast 1100mV 85C Model Hold 'clk'
+Slack : -2.622
+TNS   : -5.079
+
+Type  : Fast 1100mV 85C Model Hold 'clock:clock_inst|clk_div'
+Slack : -0.348
+TNS   : -6.415
+
+Type  : Fast 1100mV 85C Model Hold 'displaygrid:displaygrid_inst|clk25'
+Slack : 0.084
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.692
+TNS   : -110.768
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clock:clock_inst|clk_div'
+Slack : -0.395
+TNS   : -509.621
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'displaygrid:displaygrid_inst|clk25'
+Slack : -0.013
+TNS   : -0.048
+
+Type  : Fast 1100mV 0C Model Setup 'displaygrid:displaygrid_inst|clk25'
+Slack : -10.835
+TNS   : -211.563
+
+Type  : Fast 1100mV 0C Model Setup 'clock:clock_inst|clk_div'
+Slack : -5.571
+TNS   : -17112.539
+
+Type  : Fast 1100mV 0C Model Setup 'clk'
+Slack : -2.299
+TNS   : -194.976
+
+Type  : Fast 1100mV 0C Model Hold 'clk'
+Slack : -2.436
+TNS   : -4.734
+
+Type  : Fast 1100mV 0C Model Hold 'clock:clock_inst|clk_div'
+Slack : -0.268
+TNS   : -3.574
+
+Type  : Fast 1100mV 0C Model Hold 'displaygrid:displaygrid_inst|clk25'
+Slack : 0.072
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.634
+TNS   : -105.377
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clock:clock_inst|clk_div'
+Slack : -0.324
+TNS   : -384.540
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'displaygrid:displaygrid_inst|clk25'
+Slack : 0.025
+TNS   : 0.000
+
+------------------------------------------------------------

@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at gameoflife.v(45): always construct contains both blocking and non-blocking assignments File: D:/Study/Spring 2023/ROBT206/project/gameoflife/gameoflife.v Line: 45
